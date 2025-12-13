@@ -1,0 +1,30 @@
+import React from "react";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Home from "./pages/Home";
+import Campaign from "./pages/Campaign";
+import Register from "./pages/Register";
+
+function App() {
+  return (
+    <Router>
+      <header>
+        <h1>Gender Responsive Mechanism</h1>
+        <nav>
+          <Link to="/">Home</Link>
+          <Link to="/campaign">Campaign</Link>
+          <Link to="/register">Register</Link>
+        </nav>
+      </header>
+
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/campaign" element={<Campaign />} />
+          <Route path="/register" element={<Register />} />
+        </Routes>
+      </main>
+    </Router>
+  );
+}
+
+export default App;
