@@ -15,6 +15,14 @@ function Campaign() {
           <p>STEM Workshop for Young Learners</p>
         </div>
         <div className="photo">
+          <img src={img1} alt="Program 1" />
+          <p>STEM Workshop for Young Learners</p>
+        </div>
+        <div className="photo">
+          <img src={img2} alt="Program 2" />
+          <p>Community Learning Sessions</p>
+        </div>
+        <div className="photo">
           <img src={img2} alt="Program 2" />
           <p>Community Learning Sessions</p>
         </div>
@@ -22,6 +30,18 @@ function Campaign() {
 
       <h2>Student Support</h2>
       <div className="gallery">
+        <div className="photo">
+          <img src={img3} alt="Support" />
+          <p>Academic Guidance & Mentorship</p>
+        </div>
+        <div className="photo">
+          <img src={img3} alt="Support" />
+          <p>Academic Guidance & Mentorship</p>
+        </div>
+        <div className="photo">
+          <img src={img3} alt="Support" />
+          <p>Academic Guidance & Mentorship</p>
+        </div>
         <div className="photo">
           <img src={img3} alt="Support" />
           <p>Academic Guidance & Mentorship</p>

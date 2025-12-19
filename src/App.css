@@ -9,6 +9,7 @@ body {
 header {
   background-color:  #5393e6;;
   color: white;
+   font-size: 20px;
   padding: 1rem 0;
   text-align: center;
 }
@@ -16,8 +17,9 @@ header {
 nav {
   display: flex;
   justify-content: center;
+   font-size: 30px;
   align-items: center;
-  gap: 20px;
+  gap: 100px;
   margin-top: 10px;
 }
 
@@ -32,6 +34,7 @@ nav a:hover {
 }
 
 .home, .campaign, .register-form {
+   font-size: 25px;
   padding: 2rem;
   text-align: center;
 }
@@ -56,6 +59,7 @@ nav a:hover {
   color:  #5393e6;;
 }
 
+
 .gallery {
   display: flex;
   justify-content: center;
@@ -72,7 +76,8 @@ nav a:hover {
 }
 
 footer {
-  background-color:  #5393e6;;
+  background-color:  #5393e6;
+   font-size: 20px;
   color: white;
   text-align: center;
   padding: 1rem 0;
@@ -89,6 +94,7 @@ form {
 }
 
 input, select, button {
+   font-size: 20px;
   padding: 8px;
   width: 100%;
   border-radius: 5px;
